@@ -13,3 +13,14 @@ config_version=5
 config/name="UI Playground"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
+
+[file_customization]
+
+folder_colors={
+"res://Assets/": "teal",
+"res://Scenes/": "blue"
+}
+
+[global_group]
+
+Player=""

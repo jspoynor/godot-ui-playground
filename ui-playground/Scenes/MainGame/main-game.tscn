@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://b326ltirgkwdy"]
+
+[ext_resource type="PackedScene" uid="uid://ced1ehb1oliba" path="res://Scenes/TilingFloor/tiling_floor.tscn" id="1_4fdh4"]
+[ext_resource type="PackedScene" uid="uid://svtkevny00xy" path="res://Scenes/Player/player.tscn" id="2_wjn3f"]
+
+[node name="Game" type="Node2D"]
+
+[node name="TilingFloor" parent="." instance=ExtResource("1_4fdh4")]
+
+[node name="Player" parent="." instance=ExtResource("2_wjn3f")]
